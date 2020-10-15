@@ -1,0 +1,25 @@
+= 0 i
+< i 100	t0
+== t0 FALSE 25
+= 0 j
+< j 100	t1
+== t1 FALSE	22
+== c[i][j] 0.0 t2
+! t2 FALSE 10
+= 0.0 c[i][j]
+GOTO 10
+= 0 k
+< k 100 t3
+== t3 FALSE 19
+* a[i][k] b[k][j] t4
++ c[i][j] t4 t5
+= t5 c[i][j]
++ k 1 t6
+= t6 k
+GOTO 11
++ j 1 t7
+= t7 j
+GOTO 11
++ i 1 t8
+= t8 i
+GOTO 11

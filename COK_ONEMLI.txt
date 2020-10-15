@@ -1,0 +1,50 @@
+G161210305 TALHA ÇERÇİ
+
+Soruları dökümanlar ve sanal sınıf derslerindeki örnekler üzerinden yapmaya çalıştım.
+
+1.SORU: Birinci soruda herhangi bir spesifik durum bulunmamakla beraber
+konsol ekranında ./a.out yazdıktan sonra dosya ismi olarak test.c yazınca
+sorunsuz çalışmaktadır. Konsola yazılan yazı g161210305_soru1.txt dosyasına da
+yazılmaktadır.
+
+-----------------------------------------------------------------------------
+
+2.Soru: Bu ve 3. soruda kullandığım .l uzantılı dosya "KUTUPHANE", "VOID" ve
+"MAIN" tokenlarını return etmektedir. .y uzantılı yacc dosyasında yazdığım
+kurallar ile kütüphaneleri tanıyor olup
+	-global değişken tanımlamaları (int x=0; veya float x,y;)
+	-ödev dökümanında atılan kodun başına "void main()" yazılmış halini
+algılayıp çalıştırmaktadır.
+Çalıştırılması için ise konsola 
+	./a.out test.c 
+yazılması gereklidir. Konsolda çıkan yazı, g161210305_soru2.txt dosyasına da 
+yazılmaktadır.
+
+------------------------------------------------------------------------------
+
+3.Soru: 2. soruda yazdıklarım burada da geçerlidir, yacc dosyası olarak yalnızca 
+c programının yazıldığı alt taraftaki bolum değiştirilmiş olup konsola
+	./a.out test.c
+yazınca sorunsuz çalışmaktadır.Scan işlemi de parse işlemi de sorunsuz çalışmaktadır. 
+AST tablosu g161210305_soru3.txt dosyasına da 
+yazılmaktadır.
+
+------------------------------------------------------------------------------
+
+4.Soru: Aynı yacc dosyasını burada da kullanmış bulunuyorum ve Makine koduna 
+çeviren C kodunu burada yazmış bulunuyorum. Hem Scan, hem parse, hem de makine 
+koduna çevirme işlemini yapıyor. Çalıştırmak için konsola
+	./a.out test.c
+yazdıktan sonra altta ast tablosunun dosyasını soruyor. Oraya da 
+	ast.txt
+yazarak sorunsuz çalışmasını sağlayabilirsiniz.
+
+-> Ast.txt dosyasının içini elle doldurmuş bulunuyorum yani başka bir kodla denemeye 
+çalışırsanız (benim yacc ve lex dosyalarıma uygunsa) oluşacak ast tablosunu el 
+ile geçirmeniz gerekmektedir.
+
+
+Soruların hepsi eksikler olsa da var olan test.c dosyalarıyla hatasız çalışmaktadır.
+Teşekkür ederim...
+
+
