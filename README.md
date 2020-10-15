@@ -1,4 +1,4 @@
-# Derleyici-Tasarimi
+# Derleyici Tasarimi Proje: C dilini kullanarak Token' elde edip daha sonra bu tokenleri kullanarak parser program geliştirmek. Ardından Abstract Syntax Tree oluşturacak şekilde çıktı elde etmek. En son olarak ise oluşturulan Abstract Syntax Tree'yi makine koduna dönüşümünü sağlamak.
 
 Soru 1) C dilindeki herhangi bir kod parçasını tarayan bir tarayıcı (scanner) program geliştiriniz. Taranan “token”lar, sembol tablosu olarak terminalde yazdırılarak kullanıcıya sunulmalıdır. Taranacak olan “token” listesi Tablo 1’de verilmektedir.
 Soru 2) Tarayıcı tarafından belirlenen Tablo 1’deki “token”ları ayrıştıran bir ayrıştırıcı (parser) program geliştiriniz.
